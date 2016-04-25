@@ -40,7 +40,7 @@ Occurrence
 
 ##Justification
 
-Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is **occurrenceStatus**, but currently the DwC documentation only suggests “present” and “absent” as example field entries. However, presence and absence can equally be expressed using the field **individualCount** or **organismQuantity** and **organismQuantityType** terms. We suggest that **individualCount**, **organismQuantity** and **organismQuantityType** are best used to indicate the presence or absence of a taxon during a surveying event. In contrast **occurrenceStatus** is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
+Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is **occurrenceStatus**, but currently the DwC documentation only suggests “present” and “absent” as example field entries. However, presence and absence can equally be expressed using the field **individualCount** or **organismQuantity** and **organismQuantityType** terms. We suggest that **individualCount**, **organismQuantity** and **organismQuantityType** are best used to indicate the presence or absence of a taxon during a surveying event or observation. In contrast **occurrenceStatus** is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
 
 ##Definition
 
