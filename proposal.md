@@ -14,7 +14,7 @@ Some suggested vocabularies exist for the required terms and we suggest formaliz
 
 We value a region’s indigenous organisms because they give a unique character to different areas and habitats. Therefore we need information on the native status of an organism to make conservation assessments and direct policy towards IAS. This requires a new term in DwC and we also suggest a suitable controlled vocabulary for this term.
 
-The term and suggested vocabulary has been adapted from the IUCN definitions ([http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after 1500, because this is widely used in Europe to distinguish ancient and modern introductions.
+We propose adopting the term **origin** and suggested vocabulary from the IUCN definitions ([http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after 1500, because this is widely used in Europe to distinguish ancient and modern introductions.
 
 ##Definition
 
