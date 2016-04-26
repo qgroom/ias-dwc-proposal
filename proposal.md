@@ -44,9 +44,9 @@ Many species checklists express whether a taxon occurs in a region at the time o
 
 ##Definition
 
-From [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/terms/Occurrence)
+Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/terms/Occurrence)
 
-*“A statement about the presence or absence of a Taxon at a Location. Recommended best practice is to use a controlled vocabulary.”*
+*“A statement about the continued presence of a Taxon at a Location. Recommended best practice is to use the vocabulary of the IUCN term for *Presence*.”*
 
 ##Suggested controlled vocabulary
 
@@ -76,7 +76,7 @@ Invasive species use many pathways to colonize new areas. Information on these p
 
 From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/terms/establishmentMeans)
 
-*“The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.”*
+*“The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary of the Convention on Biological Diversity.”*
 
 ##Suggested controlled vocabulary
 
