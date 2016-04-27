@@ -8,6 +8,9 @@ DwC contains the term **establishmentMeans** with the definition of *“The proc
 
 Some suggested vocabularies exist for the required terms and we suggest formalizing these in DwC and building on them, rather than defining new vocabularies.
 
+Sponsers:
+Quentin Groom - Botanic Garden Meise, Belgium
+
 #Origin
 
 ##Justification
