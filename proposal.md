@@ -2,7 +2,7 @@
 
 ## tldr;
 
-We propose adding an additional term to the Darwin Core (DwC) standard to express information on the indigenousness of taxa. We also propose vocabularies for existing terms in DwC to make their meaning more clear and the data they contain more useful.
+For better interoperability of invasive species information, we propose adding a new term to the Darwin Core (DwC) standard: `origin`, to express information on the indigenousness of taxa. We also propose vocabularies for the existing terms `occurrenceStatus`  and `establishmentMeans` to make their meaning more clear and the data they contain more useful.
 
 ## Context
 
@@ -59,7 +59,7 @@ To express the concept that a taxon has either been introduced by human activity
 
 Occurrence
  
-## occurrenceStatus (updated term)
+## occurrenceStatus
 
 ### Justification
 
@@ -89,7 +89,7 @@ We suggest changing the documentation to suggest a controlled vocabulary in line
 
 Occurrence
 
-## establishmentMeans (updated term)
+## establishmentMeans
 
 ### Justification
 
