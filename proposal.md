@@ -1,10 +1,30 @@
-We propose adding an additional term to the Darwin Core (DwC) standard to express information on the indigenousness of taxa. We also propose vocabularies for pre-existing terms in DwC to make their meaning more clear and the data they contain more useful.
+# Proposal
+
+## tldr;
+
+We propose adding an additional term to the Darwin Core (DwC) standard to express information on the indigenousness of taxa. We also propose vocabularies for existing terms in DwC to make their meaning more clear and the data they contain more useful.
+
+## Context
 
 To improve the management and reduce the spread of invasive alien species (IAS) horizon scanning and impact assessments should be conducted regularly as part of a routine monitoring. However, these assessments are difficult to automate because the source data lacks common formats and standards. Improved interoperability would allow the creation of repeatable workflows for rapid processing. A similar situation exists for the assessment of conservation statuses for Red Lists. Again, the lack of machine readable resources and inadequate standards prevents automation of the process. Ideally, such assessments could be run regularly or as soon as new data becomes available.
 
 Basic pieces of information required for horizon scanning, impact assessment and red listing are whether the species is native to the area in question and does it currently live there. This information is frequently collected in species checklists and observations, but currently it is difficult to communicate these concepts in DwC, either due to a lack of fields or to the lack of clear advice on suitable controlled vocabularies. Furthermore, information on how an organism came to live in a location is needed for these assessment and can additionally be used to provide useful information for import controls.
 
-DwC contains the term **establishmentMeans** with the definition of *“The process by which the biological individual(s) represented in the Occurrence became established at the location”*. In the DwC documentation it is suggested to use a controlled vocabulary and it gives the following terms as examples, *"native", "introduced", "naturalised", "invasive"* and *“managed"*. The term’s name and definition suggest that it refers to the introduction pathway, however some examples relate to the impact and longevity of the species and none of the examples actually define a pathway as such. A similar situation exists for the term **occurrenceStatus**, although the field exists in DwC it can be interpreted in different ways and clearer guidance to users would help distinguish this term from other similar terms, such as **individualCount**.
+DwC contains the term [establishmentMeans](http://rs.tdwg.org/dwc/terms/index.htm#establishmentMeans) with the following definition:
+
+> The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.
+
+The examples listed in the comment are:
+
+```
+native
+introduced
+naturalised
+invasive
+managed
+```
+
+The term’s name and definition suggest that it refers to the introduction pathway, however some examples relate to the impact and longevity of the species and none of the examples actually define a pathway as such. A similar situation exists for the term [occurrenceStatus](http://rs.tdwg.org/dwc/terms/index.htm#occurrenceStatus), although the field exists in DwC it can be interpreted in different ways and clearer guidance to users would help distinguish this term from other similar terms, such as [individualCount](http://rs.tdwg.org/dwc/terms/index.htm#individualCount).
 
 Some suggested vocabularies exist for the required terms and we suggest formalizing these in DwC and building on them, rather than defining new vocabularies.
 
