@@ -93,7 +93,7 @@ From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/te
 
 Taken from, Convention on Biological Diversity (2014a) Pathways of Introduction of Invasive Species, their Prioritization and Management. UNEP/CBD/SBSTTA/18/9/Add.1. Secretariat of the Convention on Biological Diversity, Montreal. Which is an adaption of the hierarchical scheme proposed by Hulme et al. (2008) Grasping at the routes of biological invasions: a framework for integrating pathways into policy, *Journal of Applied Ecology*, **45**: 403–414;
 
-[pathways vocabulary](vocabulary/pathways.tsv)
+[pathways vocabulary](vocabulary/pathway.tsv)
 
 ### Comment
 
