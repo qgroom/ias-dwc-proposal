@@ -45,13 +45,7 @@ To express the concept that a taxon has either been introduced by human activity
 
 ### Suggested controlled vocabulary
 
-* `native` – The species either is or was native to the area
-* `reintroduced` – The species either is or was reintroduced through human activity, either on purpose or accidentally. It is implied that the species was originally native at the location. 
-* `introduced` – The species either is or was introduced outside of its historical distribution range through either through direct or indirect human activity.
-    * `introduced on or before 1500` – synonym of `archaeophyte`. A subcategory of introduced to acknowledge the importance of modern long distance transport in the introduction of species.
-    * `introduced after 1500` – synonym of `neophyte`. A subcategory of introduced. An Organism introduced from the beginning of the Modern Era.
-* `vagrant` – Synonymous with `casual`. The species has lived or occurs sporadically at the location but is not considered native.
-* `origin uncertain` – The species’ origin in an area is not known, it may be native, reintroduced or introduced.
+[origin vocabulary](vocabulary/origin.tsv)
 
 ### Comment
 
@@ -75,13 +69,7 @@ Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/te
 
 We suggest changing the documentation to suggest a controlled vocabulary in line with the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016).
 
-* `extant`
-* `possibly extant`
-* `possibly extinct`
-* `extinct`
-* `extinct (post 1500)`
-* `present`
-* `presence uncertain`
+[presence vocabulary](vocabulary/presence.tsv)
 
 ### Comment
 
@@ -105,55 +93,7 @@ From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/te
 
 Taken from, Convention on Biological Diversity (2014a) Pathways of Introduction of Invasive Species, their Prioritization and Management. UNEP/CBD/SBSTTA/18/9/Add.1. Secretariat of the Convention on Biological Diversity, Montreal. Which is an adaption of the hierarchical scheme proposed by Hulme et al. (2008) Grasping at the routes of biological invasions: a framework for integrating pathways into policy, *Journal of Applied Ecology*, **45**: 403–414;
 
-* `release`
-* `biological control`
-* `erosion control/ dune stabilization`
-* `fishery in the wild`
-* `hunting`
-* `landscape/flora/fauna “improvement” in the wild`
-* `introduction for conservation purposes or wildlife management`
-* `release in nature for use`
-* `other intentional release`
-* `escape`
-    * `agriculture`
-    * `aquaculture / mariculture`
-    * `botanical garden/zoo/aquaria`
-    * `pet/aquarium/terrarium species`
-    * `farmed animals`
-    * `forestry`
-    * `fur farms`
-    * `horticulture`
-    * `ornamental purpose other than horticulture`
-    * `research and ex-situ breeding`
-    * `live food and live bait`
-    * `other escape from confinement`
-* `contaminant`
-    * `contaminant nursery material`
-    * `contaminated bait`
-    * `food contaminant`
-    * `contaminant on animals`
-    * `parasites on animals`
-    * `contaminant on plants`
-    * `parasites on plants`
-    * `seed contaminant`
-    * `timber trade`
-    * `transportation of habitat material`
-* stowaway
-    * `angling/fishing equipment`
-    * `container/bulk`
-    * `hitchhikers in or on airplane`
-    * `hitchhikers on ship/boat`
-    * `machinery/equipment`
-    * `people and their luggage/equipment`
-    * `organic packing material`
-    * `ship/boat ballast water`
-    * `ship/boat hull fouling`
-    * `vehicles`
-    * `other means of transport`
-* `corridor`
-    * `interconnected waterways/basins/seas`
-    * `tunnels and land bridges`
-* `unaided`
+[pathways vocabulary](vocabulary/pathways.tsv)
 
 ### Comment
 
