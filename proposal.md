@@ -31,132 +31,132 @@ Some suggested vocabularies exist for the required terms and we suggest formaliz
 Sponsers:
 Quentin Groom - Botanic Garden Meise, Belgium
 
-#Origin
+## origin (new term)
 
-##Justification
+### Justification
 
 We value a region’s indigenous organisms because they give a unique character to different areas and habitats. Therefore we need information on the native status of an organism to make conservation assessments and direct policy towards IAS. This requires a new term in DwC and we also suggest a suitable controlled vocabulary for this term.
 
-We propose adopting the term **origin** and suggested vocabulary from the IUCN definitions ([http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after 1500, because this is widely used in Europe to distinguish ancient and modern introductions.
+We propose adopting the term `origin` and suggested vocabulary from the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after 1500, because this is widely used in Europe to distinguish ancient and modern introductions.
 
-##Definition
+### Definition
 
 To express the concept that a taxon has either been introduced by human activity or occurs naturally in a location and has done so before the impact of modern humans.
 
-##Suggested controlled vocabulary
+### Suggested controlled vocabulary
 
-* Native – The species either is or was native to the area
-* Reintroduced – The species either is or was reintroduced through human activity, either on purpose or accidentally. It is implied that the species was originally native at the location. 
-* Introduced – The species either is or was introduced outside of its historical distribution range through either through direct or indirect human activity.
-  * Introduced on or before 1500 – synonym of archaeophyte. A subcategory of introduced to acknowledge the importance of modern long distance transport in the introduction of species.
-  * Introduced after 1500 – synonym of neophyte. A subcategory of introduced. An Organism introduced from the beginning of the Modern Era.
-* Vagrant – Synonymous with casual. The species has lived or occurs sporadically at the location but is not considered native
-* Origin Uncertain – The species’ origin in an area is not known, it may be native, reintroduced or introduced.
+* `native` – The species either is or was native to the area
+* `reintroduced` – The species either is or was reintroduced through human activity, either on purpose or accidentally. It is implied that the species was originally native at the location. 
+* `introduced` – The species either is or was introduced outside of its historical distribution range through either through direct or indirect human activity.
+    * `introduced on or before 1500` – synonym of `archaeophyte`. A subcategory of introduced to acknowledge the importance of modern long distance transport in the introduction of species.
+    * `introduced after 1500` – synonym of `neophyte`. A subcategory of introduced. An Organism introduced from the beginning of the Modern Era.
+* `vagrant` – Synonymous with `casual`. The species has lived or occurs sporadically at the location but is not considered native.
+* `origin uncertain` – The species’ origin in an area is not known, it may be native, reintroduced or introduced.
 
-##Comment
+### Comment
 
-##Term group
+### Term group
 
 Occurrence
  
-#occurrenceStatus 
+## occurrenceStatus (updated term)
 
-##Justification
+### Justification
 
-Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is **occurrenceStatus**, but currently the DwC documentation only suggests “present” and “absent” as example field entries. However, presence and absence can equally be expressed using the field **individualCount** or **organismQuantity** and **organismQuantityType** terms. We suggest that **individualCount**, **organismQuantity** and **organismQuantityType** are best used to indicate the presence or absence of a taxon during a surveying event or observation. In contrast **occurrenceStatus** is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
+Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is `occurrenceStatus`, but currently the DwC documentation only suggests `present` and `absent` as example field entries. However, presence and absence can equally be expressed using the field `individualCount` or `organismQuantity` and `organismQuantityType` terms. We suggest that `individualCount`, `organismQuantity` and `organismQuantityType` are best used to indicate the presence or absence of a taxon during a surveying event or observation. In contrast `occurrenceStatus` is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
 
-##Definition
+### Definition
 
-Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/terms/Occurrence)
+Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/terms/Occurrence):
 
-*“A statement about the continued presence of a Taxon at a Location. Recommended best practice is to use the vocabulary of the IUCN term for Presence.”*
+> A statement about the continued presence of a Taxon at a Location. Recommended best practice is to use the vocabulary of the IUCN term for Presence.
 
-##Suggested controlled vocabulary
+### Suggested controlled vocabulary
 
-We suggest changing the documentation to suggest a controlled vocabulary in line with the IUCN definitions ([http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016).
+We suggest changing the documentation to suggest a controlled vocabulary in line with the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) accessed 24 Apr 2016).
 
-* Extant
-* Possibly Extant
-* Possibly Extinct
-* Extinct
-* Extinct (post 1500)
-* Present
-* Presence Uncertain
+* `extant`
+* `possibly extant`
+* `possibly extinct`
+* `extinct`
+* `extinct (post 1500)`
+* `present`
+* `presence uncertain`
 
-##Comment
+### Comment
 
-##Term group
+### Term group
 
 Occurrence
 
-#establishmentMeans
+## establishmentMeans (updated term)
 
-##Justification
+### Justification
 
-Invasive species use many pathways to colonize new areas. Information on these pathways can be used for management, prevention and control purposes. The proposal is to create a standard vocabulary that matches the definition of **establishmentMeans** so that it can be more effectively used. The definition of **establishmentMeans** will remain the same.
+Invasive species use many pathways to colonize new areas. Information on these pathways can be used for management, prevention and control purposes. The proposal is to create a standard vocabulary that matches the definition of `establishmentMeans` so that it can be more effectively used. The definition of `establishmentMeans` will remain the same.
 
-##Definition
+### Definition
 
-From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/terms/establishmentMeans)
+From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/terms/establishmentMeans):
 
-*“The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary of the Convention on Biological Diversity.”*
+> The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary of the Convention on Biological Diversity.
 
-##Suggested controlled vocabulary
+### Suggested controlled vocabulary
 
 Taken from, Convention on Biological Diversity (2014a) Pathways of Introduction of Invasive Species, their Prioritization and Management. UNEP/CBD/SBSTTA/18/9/Add.1. Secretariat of the Convention on Biological Diversity, Montreal. Which is an adaption of the hierarchical scheme proposed by Hulme et al. (2008) Grasping at the routes of biological invasions: a framework for integrating pathways into policy, *Journal of Applied Ecology*, **45**: 403–414;
 
-* Release
-  * Biological control
-  * Erosion control/ dune stabilization
-  * Fishery in the wild
-  * Hunting
-  * Landscape/flora/fauna “improvement” in the wild
-  * Introduction for conservation purposes or wildlife management
-  * Release in nature for use
-  * Other intentional release
-* Escape
-  * Agriculture
-  * Aquaculture / mariculture
-  * Botanical garden/zoo/aquaria
-  * Pet/aquarium/terrarium species
-  * Farmed animals
-  * Forestry
-  * Fur farms
-  * Horticulture
-  * Ornamental purpose other than horticulture
-  * Research and ex-situ breeding
-  * Live food and live bait
-  * Other escape from confinement
-* Contaminant
-  * Contaminant nursery material
-  * Contaminated bait
-  * Food contaminant
-  * Contaminant on animals
-  * Parasites on animals
-  * Contaminant on plants
-  * Parasites on plants
-  * Seed contaminant
-  * Timber trade
-  * Transportation of habitat material
-* Stowaway
-  * Angling/fishing equipment
-  * Container/bulk
-  * Hitchhikers in or on airplane
-  * Hitchhikers on ship/boat
-  * Machinery/equipment
-  * People and their luggage/equipment
-  * Organic packing material
-  * Ship/boat ballast water
-  * Ship/boat hull fouling
-  * Vehicles
-  * Other means of transport
-* Corridor
-  * Interconnected waterways/basins/seas
-  * Tunnels and land bridges
-* Unaided
+* `release`
+* `biological control`
+* `erosion control/ dune stabilization`
+* `fishery in the wild`
+* `hunting`
+* `landscape/flora/fauna “improvement” in the wild`
+* `introduction for conservation purposes or wildlife management`
+* `release in nature for use`
+* `other intentional release`
+* `escape`
+    * `agriculture`
+    * `aquaculture / mariculture`
+    * `botanical garden/zoo/aquaria`
+    * `pet/aquarium/terrarium species`
+    * `farmed animals`
+    * `forestry`
+    * `fur farms`
+    * `horticulture`
+    * `ornamental purpose other than horticulture`
+    * `research and ex-situ breeding`
+    * `live food and live bait`
+    * `other escape from confinement`
+* `contaminant`
+    * `contaminant nursery material`
+    * `contaminated bait`
+    * `food contaminant`
+    * `contaminant on animals`
+    * `parasites on animals`
+    * `contaminant on plants`
+    * `parasites on plants`
+    * `seed contaminant`
+    * `timber trade`
+    * `transportation of habitat material`
+* stowaway
+    * `angling/fishing equipment`
+    * `container/bulk`
+    * `hitchhikers in or on airplane`
+    * `hitchhikers on ship/boat`
+    * `machinery/equipment`
+    * `people and their luggage/equipment`
+    * `organic packing material`
+    * `ship/boat ballast water`
+    * `ship/boat hull fouling`
+    * `vehicles`
+    * `other means of transport`
+* `corridor`
+    * `interconnected waterways/basins/seas`
+    * `tunnels and land bridges`
+* `unaided`
 
-##Comment
+### Comment
 
-##Term group
+### Term group
 
 Occurrence
