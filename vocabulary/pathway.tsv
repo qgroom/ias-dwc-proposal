@@ -1,13 +1,13 @@
 term	partOf	definition
 release		
-biological control		
-erosion control/ dune stabilization		
-fishery in the wild		
-hunting		
-landscape/flora/fauna “improvement” in the wild		
-introduction for conservation purposes or wildlife management		
-release in nature for use		
-other intentional release		
+biological control	release	
+erosion control/ dune stabilization	release	
+fishery in the wild	release	
+hunting	release	
+landscape/flora/fauna “improvement” in the wild	release	
+introduction for conservation purposes or wildlife management	release	
+release in nature for use	release	
+other intentional release	release	
 escape		
 agriculture	escape	
 aquaculture / mariculture	escape	
