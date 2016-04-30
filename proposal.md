@@ -1,6 +1,6 @@
 # Proposal
 
-## Executive summary;
+## Executive summary
 
 For better interoperability of invasive species information, we propose adding a new term to the Darwin Core (DwC) standard: `origin`, to express information on the indigenousness of taxa. We also propose vocabularies for the existing terms `occurrenceStatus`  and `establishmentMeans` to make their meaning more clear and the data they contain more useful.
 
