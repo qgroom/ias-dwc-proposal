@@ -93,6 +93,8 @@ From [http://rs.tdwg.org/dwc/terms/establishmentMeans](http://rs.tdwg.org/dwc/te
 
 Taken from, Convention on Biological Diversity (2014a) Pathways of Introduction of Invasive Species, their Prioritization and Management. UNEP/CBD/SBSTTA/18/9/Add.1. Secretariat of the Convention on Biological Diversity, Montreal. Which is an adaption of the hierarchical scheme proposed by Hulme et al. (2008) Grasping at the routes of biological invasions: a framework for integrating pathways into policy, *Journal of Applied Ecology*, **45**: 403–414;
 
+Also see: Scalera, R., Genovesi, P., Booy, O., Essl, F., Jeschke, J., Hulme, P., McGeoch, M., Pagad S., Roy, H., Wolf-Christian S. & Wilson J. (2016) Progress toward pathways prioritization in compliance to Aichi target 9. Convention of Biological Diversity, subsidiary body on scientific technical and technological advice, twentieth meeting, UNEP/CBD/SBSTTA/20/INF/5
+
 [pathways vocabulary](vocabulary/pathway.tsv)
 
 ### Comment
