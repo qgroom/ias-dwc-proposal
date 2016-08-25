@@ -37,7 +37,7 @@ Quentin Groom - Botanic Garden Meise, Belgium
 
 We value a region’s indigenous organisms because they give a unique character to different areas and habitats. Therefore we need information on the native status of an organism to make conservation assessments and direct policy towards IAS. This requires a new term in DwC and we also suggest a suitable controlled vocabulary for this term.
 
-We propose adopting the term `origin` and suggested vocabulary from the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) (accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after 1500, because this is widely used in Europe to distinguish ancient and modern introductions.
+We propose adopting the term `origin` and suggested vocabulary from the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) (accessed 24 Apr 2016). The only change was to add the distinction of introduction before and after ~~1500~~ the beginning of the modern era, because this is widely used in Europe to distinguish ancient and modern introductions. In Europe 1500 is usually used as the date for the beginning of the modern era, however, it is noted that the beginning of the modern era from a biogeographical standpoint started later in some places, such as New Zealand.
 
 ### Definition
 
