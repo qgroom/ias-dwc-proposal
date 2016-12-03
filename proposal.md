@@ -57,7 +57,7 @@ Occurrence
 
 ### Justification
 
-Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is `occurrenceStatus`, but currently the DwC documentation only suggests `present`, `absent`, `common`, `irregular`, `rare` and `doubtful` as example field entries. However, presence, absence and rarity can equally be expressed using the field `individualCount` or `organismQuantity` and `organismQuantityType` terms. We suggest that `individualCount`, `organismQuantity` and `organismQuantityType` are best used to indicate the presence or absence of a taxon during a surveying event or observation. In contrast `occurrenceStatus` is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
+Many species checklists express whether a taxon occurs in a region at the time of publication or whether it has become extinct. The most obvious field for this information is `occurrenceStatus`, but currently the DwC documentation only suggests `present`, `absent`, `common`, `irregular`, `rare` and `doubtful` as example field entries. However, presence, absence and rarity can equally be expressed using the field `individualCount` or `organismQuantity` and `organismQuantityType` terms. We suggest that `individualCount`, `organismQuantity` and `organismQuantityType` are best used to indicate the abundance of a taxon during a surveying event or observation. In contrast `occurrenceStatus` is best used in the context of a checklist where the assessment comes from a reasoned analysis of the evidence that leads to the assignment of presence or extinction. 
 
 ### Definition
 
@@ -67,7 +67,7 @@ Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/te
 
 ### Suggested controlled vocabulary
 
-We suggest changing the documentation to suggest a controlled vocabulary in line with the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) (accessed 24 Apr 2016).
+We suggest changing the documentation to suggest a controlled vocabulary in line with the [IUCN definitions](http://www.iucnredlist.org/technical-documents/red-list-training/iucnspatialresources) (accessed 24 Apr 2016). However, we have retained the term absent from the original terms for back compatibility.
 
 [presence vocabulary](vocabulary/presence.tsv)
 
