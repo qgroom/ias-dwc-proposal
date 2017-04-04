@@ -61,7 +61,7 @@ Many species checklists express whether a taxon occurs in a region at the time o
 
 ### Definition
 
-Adapted from [http://rs.tdwg.org/dwc/terms/Occurrence](http://rs.tdwg.org/dwc/terms/Occurrence):
+Adapted from [http://rs.tdwg.org/dwc/terms/occurrenceStatus](http://rs.tdwg.org/dwc/terms/occurrenceStatus):
 
 > A statement about the continued presence of a Taxon at a Location. Recommended best practice is to use the vocabulary of the IUCN term for Presence.
 
